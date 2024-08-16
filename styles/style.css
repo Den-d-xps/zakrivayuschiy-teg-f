@@ -73,6 +73,35 @@
 }
 
 /*
+Стили фильтров для изображений.
+-------------------------------------------------
+*/
+
+.over-bright {
+  filter: brightness(200%);
+}
+
+.low-contrast {
+  filter: contrast(50%);
+}
+
+.gray-blur {
+  filter: blur(0.2rem) grayscale(0.6);
+}
+
+.colorful {
+  filter: saturate(158%);
+}
+
+.different {
+  filter: hue-rotate(-60deg);
+}
+
+.sepia {
+  filter: sepia(60%) contrast(120%);
+}
+
+/*
 Стили страницы.
 -------------------------------------------------
 */
@@ -187,6 +216,10 @@
 Стили для карточек.
 -------------------------------------------------
 */
+
+.card {
+  min-block-size: 959px;
+}
 
 .card__title {
   padding: 5px 10px;
