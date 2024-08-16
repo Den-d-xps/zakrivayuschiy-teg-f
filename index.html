@@ -51,7 +51,7 @@
         <li class="list-cards__item">
           <article class="card section">
             <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
-            <div class="card__picture colorful">
+            <div class="card__picture bright-color">
               <span class="card__label">&lt;/HTML&gt;</span>
               <img 
                 src="./images/1card.jpg" 
@@ -162,7 +162,7 @@
         <li class="list-cards__item">
           <article class="card section">
             <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
-            <div class="card__picture gray-blur">
+            <div class="card__picture no-color">
               <span class="card__label">&lt;desigions&gt;</span>
               <img 
                 src="./images/4card.jpg" 
@@ -368,13 +368,14 @@
     </svg>
     <p class="popup__text">Вставьте
       дискету, чтобы продолжить</p>
-    <button 
-      class="popup__button button"
-      type="button" 
-      onclick="window['dialog-id'].close()"
-    >
-      <span class="button__text">ок</span>
-    </button>
+    <form 
+      class="popup__form"
+      method="dialog"
+    > 
+      <button class="popup__button button">
+        <span class="button__text">ок</span>
+      </button>
+    </form>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>
